@@ -1,0 +1,1 @@
+xelatex -synctex=1 --shell-escape -interaction=nonstopmode AUT_thesis.tex > errors.txt | evince AUT_thesis.pdf
